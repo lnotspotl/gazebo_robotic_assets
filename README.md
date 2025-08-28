@@ -29,3 +29,5 @@ in [`docs/MobileManipulatorUrdfAssets.md`](docs/MobileManipulatorUrdfAssets.md).
 | [__Quadrotor__](resources/quadrotor) |  An ideal quadrotor with its dynamics model.  | - | - |
 | [__Spot__](resources/spot) | Quadrupedal robot developed by Boston Dynamics | [Link](https://bostondynamics.com/) | - |
 | [__Go2__](resources/go2) | Quadrupedal robot developed by Unitree Robotics | [Link](https://www.unitree.com/) | - |
+| [__Go2w__](resources/go2w) | Wheeled quadrupedal robot developed by Unitree Robotics | [Link](https://www.unitree.com/) | - |
+| [__G1__](resources/g1) | Humanoid robot developed by Unitree Robotics | [Link](https://www.unitree.com/) | - |
