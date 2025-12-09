@@ -18,6 +18,7 @@ in [`docs/MobileManipulatorUrdfAssets.md`](docs/MobileManipulatorUrdfAssets.md).
 
 | Robot | Description | Reference | License |
 |-------|-------------|-----------|---------|
+| [__ANYmal-B__](resources/anymal_b/) | The 12-DoF torque-controlled quadrupedal from ANYbotics AG  |  [Link](https://ieeexplore.ieee.org/document/7758092)  |   [BSD-3](https://github.com/ANYbotics/anymal_b_simple_description/blob/master/LICENSE) |
 | [__ANYmal-C__](resources/anymal_c/) | The 12-DoF torque-controlled quadrupedal from ANYbotics AG  |  [Link](https://ieeexplore.ieee.org/document/7758092)  |   [BSD-3](https://github.com/ANYbotics/anymal_c_simple_description/blob/master/LICENSE) |
 | [__ANYmal-D__](resources/anymal_d/) | The 12-DoF torque-controlled quadrupedal from ANYbotics AG  |  [Link](https://ieeexplore.ieee.org/document/7758092)  |   [BSD-3](https://github.com/ANYbotics/anymal_d_simple_description/blob/master/LICENSE) |
 | [__Ballbot__](resources/ballbot) |   The ball-balancing mobile base (2D-XY + RPY).  | [Link](https://arxiv.org/abs/1902.10415) |  -  |
