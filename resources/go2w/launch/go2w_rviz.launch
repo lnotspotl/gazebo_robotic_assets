@@ -2,7 +2,7 @@
 
     <arg name="user_debug" default="false"/>
     
-    <param name="robot_description"  textfile="$(find ocs2_robotic_assets)/resources/go2w/urdf/go2w_description.urdf" />
+    <param name="robot_description"  textfile="$(find gazebo_robotic_assets)/resources/go2w/urdf/go2w_description.urdf" />
 
     <!-- for higher robot_state_publisher average rate-->
     <!-- <param name="rate" value="1000"/> -->
@@ -17,6 +17,6 @@
     </node>
 
     <node pkg="rviz" type="rviz" name="rviz" respawn="false" output="screen"
-        args="-d $(find ocs2_robotic_assets)/resources/go2w/launch/check_joint.rviz"/>
+        args="-d $(find gazebo_robotic_assets)/resources/go2w/launch/check_joint.rviz"/>
 
 </launch>

@@ -12,7 +12,7 @@
     name="spawn_model"
     pkg="gazebo_ros"
     type="spawn_model"
-    args="-file $(find ocs2_robotic_assets)/resources/go2w/urdf/go2w_description.urdf -urdf -model go2w_description -x 0 -y 0 -z 0.55"
+    args="-file $(find gazebo_robotic_assets)/resources/go2w/urdf/go2w_description.urdf -urdf -model go2w_description -x 0 -y 0 -z 0.55"
     output="screen" />
   <node
     name="fake_joint_calibration"

@@ -5,7 +5,7 @@
   <!-- Give the robot description parameter a name -->
   <arg name="description_name"           default="robot_description"/>
   <!-- Set robot description path -->
-  <arg name="description_file"           default="$(find ocs2_robotic_assets)/resources/go2/urdf/go2_description.urdf"/>
+  <arg name="description_file"           default="$(find gazebo_robotic_assets)/resources/go2/urdf/go2_description.urdf"/>
 
 
   <!-- Run xacro script to generate Go2 description -->

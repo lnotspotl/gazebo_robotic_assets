@@ -5,7 +5,7 @@
   <!-- Name of the robot description parameter -->
   <arg name="description_name"         default="anymal_description"/>
   <!-- Set robot description path -->
-  <arg name="description_file"         default="$(find ocs2_robotic_assets)/resources/spot/urdf/spot.urdf"/>
+  <arg name="description_file"         default="$(find gazebo_robotic_assets)/resources/spot/urdf/spot.urdf"/>
   <!-- Joint state topic name -->
   <arg name="joint_states_topic"       default="/joint_states"/>
 
@@ -31,7 +31,7 @@
 
   <!-- RViz -->
   <node name="rviz" pkg="rviz" type="rviz"
-        args="-d $(find ocs2_robotic_assets)/resources/spot/urdf/spot.rviz"/>
+        args="-d $(find gazebo_robotic_assets)/resources/spot/urdf/spot.rviz"/>
         output="screen"/>
 
 </launch>

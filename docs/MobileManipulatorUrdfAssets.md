@@ -20,7 +20,7 @@ git clone git@github.com:frankaemika/franka_ros.git
 * Build the necessary packages and source the workspace:
 
 ```bash
-catkin build franka_description ocs2_robotic_assets
+catkin build franka_description gazebo_robotic_assets
 
 source devel/setup.bash
 ```
@@ -28,19 +28,19 @@ source devel/setup.bash
 * Convert the xacro file to urdf format:
 
 ```bash
-rosrun xacro xacro -o $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/franka/urdf/panda.urdf $(rospack find franka_description)/robots/panda_arm.urdf.xacro hand:=true
+rosrun xacro xacro -o $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/franka/urdf/panda.urdf $(rospack find franka_description)/robots/panda_arm.urdf.xacro hand:=true
 ```
 
-* Copy all meshes from `franka_description` to `ocs2_robotic_assets/resources` directory:
+* Copy all meshes from `franka_description` to `gazebo_robotic_assets/resources` directory:
 
 ```bash
-cp -r $(rospack find franka_description)/meshes $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/franka/meshes
+cp -r $(rospack find franka_description)/meshes $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/franka/meshes
 ```
 
 * Replace the meshes locations in the robot's urdf
 
 ```bash
-sed -i 's+franka_description+ocs2_robotic_assets/resources/mobile_manipulator/franka+g' $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/franka/urdf/panda.urdf
+sed -i 's+franka_description+gazebo_robotic_assets/resources/mobile_manipulator/franka+g' $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/franka/urdf/panda.urdf
 ```
 
 * Add a dummy link "root" to the URDF (KDL prefers the root of the tree to have an empty-link):
@@ -69,7 +69,7 @@ git clone git@github.com:Kinovarobotics/kinova-ros.git
 * Build the necessary packages and source the workspace:
 
 ```bash
-catkin build kinova_description ocs2_robotic_assets
+catkin build kinova_description gazebo_robotic_assets
 
 source devel/setup.bash
 ```
@@ -78,24 +78,24 @@ source devel/setup.bash
 
 ```bash
 # For Kinova Jaco2 (7-DOF)
-rosrun xacro xacro -o $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/kinova/urdf/j2n7s300.urdf $(rospack find kinova_description)/urdf/j2n7s300_standalone.xacro
+rosrun xacro xacro -o $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/kinova/urdf/j2n7s300.urdf $(rospack find kinova_description)/urdf/j2n7s300_standalone.xacro
 # For Kinova Jaco2 (6-DOF)
-rosrun xacro xacro -o $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/kinova/urdf/j2n6s300.urdf $(rospack find kinova_description)/urdf/j2n6s300_standalone.xacro
+rosrun xacro xacro -o $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/kinova/urdf/j2n6s300.urdf $(rospack find kinova_description)/urdf/j2n6s300_standalone.xacro
 ```
 
-* Copy all meshes from `franka_description` to `ocs2_robotic_assets/resources` directory:
+* Copy all meshes from `franka_description` to `gazebo_robotic_assets/resources` directory:
 
 ```bash
-cp -r $(rospack find kinova_description)/meshes $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/kinova/meshes
+cp -r $(rospack find kinova_description)/meshes $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/kinova/meshes
 ```
 
 * Replace the meshes locations in the robot's urdf
 
 ```bash
 # For Kinova Jaco2 (7-DOF)
-sed -i 's+kinova_description+ocs2_robotic_assets/resources/mobile_manipulator/kinova+g' $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/kinova/urdf/j2n7s300.urdf
+sed -i 's+kinova_description+gazebo_robotic_assets/resources/mobile_manipulator/kinova+g' $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/kinova/urdf/j2n7s300.urdf
 # For Kinova Jaco2 (6-DOF)
-sed -i 's+kinova_description+ocs2_robotic_assets/resources/mobile_manipulator/kinova+g' $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/kinova/urdf/j2n6s300.urdf
+sed -i 's+kinova_description+gazebo_robotic_assets/resources/mobile_manipulator/kinova+g' $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/kinova/urdf/j2n6s300.urdf
 ```
 
 * In addition to above, we make the following changes to the URDF Wto make it more readable:
@@ -115,7 +115,7 @@ git clone git@github.com:PR2/pr2_common.git
 * Build the necessary packages and source the workspace:
 
 ```bash
-catkin build pr2_description ocs2_robotic_assets
+catkin build pr2_description gazebo_robotic_assets
 
 source devel/setup.bash
 ```
@@ -123,20 +123,20 @@ source devel/setup.bash
 * Convert the xacro file to urdf format:
 
 ```bash
-rosrun xacro xacro -o $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/pr2/urdf/pr2.urdf $(rospack find franka_description)/robots/pr2.urdf.xacro
+rosrun xacro xacro -o $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/pr2/urdf/pr2.urdf $(rospack find franka_description)/robots/pr2.urdf.xacro
 ```
 
-* Copy all meshes from `pr2_description` to `ocs2_robotic_assets/resources` directory:
+* Copy all meshes from `pr2_description` to `gazebo_robotic_assets/resources` directory:
 
 ```bash
-cp -r $(rospack find pr2_description)/meshes $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/pr2/meshes
-cp -r $(rospack find pr2_description)/materials $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/pr2/materials
+cp -r $(rospack find pr2_description)/meshes $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/pr2/meshes
+cp -r $(rospack find pr2_description)/materials $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/pr2/materials
 ```
 
 * Replace the meshes locations in the robot's urdf
 
 ```bash
-sed -i 's+pr2_description+ocs2_robotic_assets/resources/mobile_manipulator/pr2+g' $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/pr2/urdf/pr2.urdf
+sed -i 's+pr2_description+gazebo_robotic_assets/resources/mobile_manipulator/pr2+g' $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/pr2/urdf/pr2.urdf
 ```
 
 * In addition to above, we make the following changes to the URDF Wto make it more readable:
@@ -169,7 +169,7 @@ rosdep install --from-paths src --ignore-src -r -y
 * Build the necessary packages and source the workspace:
 
 ```bash
-catkin build ur_description ridgeback_description ridgeback_ur_description ocs2_robotic_assets
+catkin build ur_description ridgeback_description ridgeback_ur_description gazebo_robotic_assets
 
 source devel/setup.bash
 ```
@@ -183,23 +183,23 @@ source $(rospack find ridgeback_ur_description)/scripts/setup_ridgeback_ur5_enva
 * Convert the xacro file to urdf format:
 
 ```bash
-rosrun xacro xacro -o $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/urdf/ridgeback_ur5.urdf $(rospack find ridgeback_description)/urdf/ridgeback.urdf.xacro
+rosrun xacro xacro -o $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/urdf/ridgeback_ur5.urdf $(rospack find ridgeback_description)/urdf/ridgeback.urdf.xacro
 ```
 
-* Copy all meshes from `pr2_description` to `ocs2_robotic_assets/resources` directory:
+* Copy all meshes from `pr2_description` to `gazebo_robotic_assets/resources` directory:
 
 ```bash
-mkdir -p $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/meshes/base
-mkdir -p $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5
-cp -r $(rospack find ridgeback_description)/meshes/* $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/meshes/base
-cp -r $(rospack find ur_description)/meshes/ur5/* $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5
+mkdir -p $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/meshes/base
+mkdir -p $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5
+cp -r $(rospack find ridgeback_description)/meshes/* $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/meshes/base
+cp -r $(rospack find ur_description)/meshes/ur5/* $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5
 ```
 
 * Replace the meshes locations in the robot's urdf
 
 ```bash
-sed -i 's+ridgeback_description/meshes+ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/base+g' $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/urdf/ridgeback_ur5.urdf
-sed -i 's+ur_description/meshes/ur5+ocs2_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5+g' $(rospack find ocs2_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/urdf/ridgeback_ur5.urdf
+sed -i 's+ridgeback_description/meshes+gazebo_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/base+g' $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/urdf/ridgeback_ur5.urdf
+sed -i 's+ur_description/meshes/ur5+gazebo_robotic_assets/resources/mobile_manipulator/ridgeback_ur5/meshes/ur5+g' $(rospack find gazebo_robotic_assets)/resources/mobile_manipulator/ridgeback_ur5/urdf/ridgeback_ur5.urdf
 ```
 
 * In addition to above, we make the following changes to the URDF Wto make it more readable:

@@ -14,7 +14,7 @@
         <visual>      
             <origin rpy="0 0 0" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_base.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_base.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -90,7 +90,7 @@
         <visual>      
             <origin rpy="0 0 0.0" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_hip_l.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_hip_l.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -127,7 +127,7 @@
         <visual>      
             <origin rpy="0 0 0.0" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_thigh_l.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_thigh_l.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -171,7 +171,7 @@
         <visual>      
             <origin rpy="0 0 0.0" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_shank_l.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_shank_l.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -207,7 +207,7 @@
         <visual>      
             <origin rpy="0 0 0.0" xyz="0 0 0.032"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_foot.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_foot.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -243,7 +243,7 @@
         <visual>      
             <origin rpy="0 0 0.0" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_hip_r.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_hip_r.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -280,7 +280,7 @@
         <visual>      
             <origin rpy="0 0 0.0" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_thigh_r.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_thigh_r.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -324,7 +324,7 @@
         <visual>      
             <origin rpy="0 0 0.0" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_shank_r.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_shank_r.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -360,7 +360,7 @@
         <visual>      
             <origin rpy="0 0 0.0" xyz="0 0 0.032"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_foot.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_foot.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -396,7 +396,7 @@
         <visual>      
             <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_hip_r.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_hip_r.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -433,7 +433,7 @@
         <visual>      
             <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_thigh_r.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_thigh_r.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -477,7 +477,7 @@
         <visual>      
             <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_shank_r.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_shank_r.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -513,7 +513,7 @@
         <visual>      
             <origin rpy="0 0 -3.14159265359" xyz="0 0 0.032"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_foot.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_foot.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -549,7 +549,7 @@
         <visual>      
             <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_hip_l.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_hip_l.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -586,7 +586,7 @@
         <visual>      
             <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_thigh_l.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_thigh_l.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -630,7 +630,7 @@
         <visual>      
             <origin rpy="0 0 -3.14159265359" xyz="0 0 0"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_shank_l.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_shank_l.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
@@ -666,7 +666,7 @@
         <visual>      
             <origin rpy="0 0 -3.14159265359" xyz="0 0 0.032"/>      
             <geometry>        
-                <mesh filename="package://ocs2_robotic_assets/resources/anymal_b/meshes/anymal_foot.dae" scale="0.001 0.001     0.001"/>      
+                <mesh filename="package://gazebo_robotic_assets/resources/anymal_b/meshes/anymal_foot.dae" scale="0.001 0.001     0.001"/>      
             </geometry>      
             <material name="anymal_material"/>    
         </visual>    
