@@ -1,9 +1,6 @@
-# OCS2 Robotic Assets
+# Gazebo Robotic Assets
 
-This package provides a collection of assets for several commonly used robots. The assets are meant to serve as examples on integrating various different robots with [OCS2 Toolbox](https://github.com/leggedrobotics/ocs2).
-
-__Note:__ For reproducibility, the steps involved in creating the mobile-manipulator assets are described
-in [`docs/MobileManipulatorUrdfAssets.md`](docs/MobileManipulatorUrdfAssets.md).
+This package provides a collection of assets for simulating several common robots in Gazebo. Files included in this repository are mainly used in the [tbai](https://github.com/lnotspotl/tbai_ros) project.
 
 ## Assets
 
