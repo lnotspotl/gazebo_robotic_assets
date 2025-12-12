@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(ocs2_robotic_assets)
+project(gazebo_robotic_assets)
 
 find_package(catkin)
 

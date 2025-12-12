@@ -27,7 +27,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/base.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/base.dae" />
       </geometry>
       <material
         name="">
@@ -140,7 +140,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/hip.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/hip.dae" />
       </geometry>
       <material
         name="">
@@ -207,7 +207,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/thigh.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/thigh.dae" />
       </geometry>
       <material
         name="">
@@ -274,7 +274,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/calf.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/calf.dae" />
       </geometry>
       <material
         name="">
@@ -385,7 +385,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/foot.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/foot.dae" />
       </geometry>
       <material
         name="">
@@ -435,7 +435,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 3.1415 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/hip.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/hip.dae" />
       </geometry>
       <material
         name="">
@@ -502,7 +502,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/thigh.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/thigh.dae" />
       </geometry>
       <material
         name="">
@@ -569,7 +569,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/calf.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/calf.dae" />
       </geometry>
       <material
         name="">
@@ -680,7 +680,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/foot.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/foot.dae" />
       </geometry>
       <material
         name="">
@@ -730,7 +730,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="3.1415 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/hip.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/hip.dae" />
       </geometry>
       <material
         name="">
@@ -797,7 +797,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/thigh_mirror.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/thigh_mirror.dae" />
       </geometry>
       <material
         name="">
@@ -864,7 +864,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/calf_mirror.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/calf_mirror.dae" />
       </geometry>
       <material
         name="">
@@ -975,7 +975,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/foot.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/foot.dae" />
       </geometry>
       <material
         name="">
@@ -1025,7 +1025,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="3.1415 3.1415 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/hip.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/hip.dae" />
       </geometry>
       <material
         name="">
@@ -1092,7 +1092,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/thigh_mirror.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/thigh_mirror.dae" />
       </geometry>
       <material
         name="">
@@ -1159,7 +1159,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/calf_mirror.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/calf_mirror.dae" />
       </geometry>
       <material
         name="">
@@ -1270,7 +1270,7 @@ Stephen Brawner (brawner@gmail.com)
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ocs2_robotic_assets/resources/go2/dae/foot.dae" />
+          filename="package://gazebo_robotic_assets/resources/go2/dae/foot.dae" />
       </geometry>
       <material
         name="">

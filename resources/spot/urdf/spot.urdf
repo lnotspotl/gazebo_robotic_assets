@@ -4,7 +4,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/body.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/body.dae"/>
       </geometry>
       <material name="base"> <color rgba="1 0.8431 0 1"/></material>
     </visual>
@@ -30,7 +30,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fl_hip.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/fl_hip.dae"/>
       </geometry>
     </visual>
     <inertial>
@@ -56,7 +56,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fl_uleg.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/fl_uleg.dae"/>
       </geometry>
       <material name="fl_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -85,7 +85,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fl_lleg.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/fl_lleg.dae"/>
       </geometry>
     </visual>
     <collision name="LF_FOOT_collision_sensor">
@@ -117,7 +117,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fr_hip.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/fr_hip.dae"/>
       </geometry>
       <material name="fr_hip">
         <color rgba="0.2 0.2 0.2 1"/>
@@ -146,7 +146,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fr_uleg.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/fr_uleg.dae"/>
       </geometry>
       <material name="fr_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -175,7 +175,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/fr_lleg.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/fr_lleg.dae"/>
       </geometry>
     </visual>
     <collision name="RF_FOOT_collision_sensor">
@@ -207,7 +207,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hl_hip.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/hl_hip.dae"/>
       </geometry>
       <material name="hl_hip">
         <color rgba="0.2 0.2 0.2 1"/>
@@ -236,7 +236,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hl_uleg.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/hl_uleg.dae"/>
       </geometry>
       <material name="hl_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -265,7 +265,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hl_lleg.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/hl_lleg.dae"/>
       </geometry>
     </visual>
     <collision name="LH_FOOT_collision_sensor">
@@ -297,7 +297,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hr_hip.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/hr_hip.dae"/>
       </geometry>
       <material name="hr_hip">
         <color rgba="0.2 0.2 0.2 1"/>
@@ -326,7 +326,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hr_uleg.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/hr_uleg.dae"/>
       </geometry>
       <material name="hr_uleg">
         <color rgba="1 0.8431 0 1"/>
@@ -355,7 +355,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ocs2_robotic_assets/resources/spot/meshes/visual/hr_lleg.dae"/>
+        <mesh filename="package://gazebo_robotic_assets/resources/spot/meshes/visual/hr_lleg.dae"/>
       </geometry>
     </visual>
     <collision name="RH_FOOT_collision_sensor">
