@@ -26,6 +26,7 @@ This package provides a collection of assets for simulating several common robot
 | [__PR2__](resources/mobile_manipulator/pr2) |  The PR2 robot (omni-directional base).  | [Link](https://ieeexplore.ieee.org/document/5980058) | [BSD-3](http://wiki.ros.org/pr2_description) |
 | [__Quadrotor__](resources/quadrotor) |  An ideal quadrotor with its dynamics model.  | - | - |
 | [__Spot__](resources/spot) | Quadrupedal robot developed by Boston Dynamics | [Link](https://bostondynamics.com/) | - |
+| [__Spot Arm__](resources/spot_arm) | Spot with 7-DoF manipulator arm and gripper | [Link](https://bostondynamics.com/products/spot/arm/) | - |
 | [__Go2__](resources/go2) | Quadrupedal robot developed by Unitree Robotics | [Link](https://www.unitree.com/) | - |
 | [__Go2w__](resources/go2w) | Wheeled quadrupedal robot developed by Unitree Robotics | [Link](https://www.unitree.com/) | - |
 | [__G1__](resources/g1) | Humanoid robot developed by Unitree Robotics | [Link](https://www.unitree.com/) | - |
