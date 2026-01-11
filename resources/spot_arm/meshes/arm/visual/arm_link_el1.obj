@@ -18832,7 +18832,7 @@ vt -0.028615 0.666886
 vt 0.073337 0.396921
 s 0
 g arm0.link_el1.002_BlackAbs
-usemtl BlackAbs
+usemtl Yellow
 f 14/1/1 15/1/2 16/1/3
 f 26/1/4 27/1/5 28/1/6
 f 15/1/7 29/1/8 30/1/9

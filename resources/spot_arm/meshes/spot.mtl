@@ -1,0 +1,22 @@
+# Spot arm materials
+
+newmtl BlackAbs
+Ka 0.02 0.02 0.02
+Kd 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0
+
+newmtl Yellow
+Ka 0.1 0.08431 0.0
+Kd 1.0 0.8431 0.0
+Ks 0.3 0.3 0.3
+Ns 50.0
+d 1.0
+
+newmtl wrap
+Ka 0.02 0.02 0.02
+Kd 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10.0
+d 1.0

@@ -32,6 +32,9 @@
       <geometry>
         <mesh filename="package://gazebo_robotic_assets/resources/spot_arm/meshes/visual/fl_hip.dae"/>
       </geometry>
+      <material name="fl_hip">
+        <color rgba="0.2 0.2 0.2 1"/>
+      </material>
     </visual>
     <inertial>
       <origin rpy="-0.716521349312305 0.02956473059648479 0.03655230014702582" xyz="-0.005374345928430557 0.012841847725212574 9.875232353806496e-05"/>
@@ -432,7 +435,7 @@
         <mesh filename="package://gazebo_robotic_assets/resources/spot_arm/meshes/arm/visual/arm_link_sh1.obj" />
       </geometry>
       <material name="arm_link_sh1">
-        <color rgba="0.2 0.2 0.2 1" />
+        <color rgba="1 0.8431 0 1" />
       </material>
     </visual>
     <inertial>
@@ -457,7 +460,7 @@
         <mesh filename="package://gazebo_robotic_assets/resources/spot_arm/meshes/arm/visual/arm_link_hr0.obj" />
       </geometry>
       <material name="arm_link_hr0">
-        <color rgba="0.2 0.2 0.2 1" />
+        <color rgba="1 0.8431 0 1" />
       </material>
     </visual>
     <collision>
@@ -513,7 +516,7 @@
         <mesh filename="package://gazebo_robotic_assets/resources/spot_arm/meshes/arm/visual/arm_link_el1.obj" />
       </geometry>
       <material name="arm_link_el1">
-        <color rgba="0.2 0.2 0.2 1" />
+        <color rgba="1 0.8431 0 1" />
       </material>
     </visual>
     <collision>
@@ -578,7 +581,7 @@
         <mesh filename="package://gazebo_robotic_assets/resources/spot_arm/meshes/arm/visual/arm_link_wr1.obj" />
       </geometry>
       <material name="arm_link_wr1">
-        <color rgba="0.2 0.2 0.2 1" />
+        <color rgba="1 0.8431 0 1" />
       </material>
     </visual>
     <collision>
@@ -623,7 +626,7 @@
         <mesh filename="package://gazebo_robotic_assets/resources/spot_arm/meshes/arm/visual/arm_link_fngr.obj" />
       </geometry>
       <material name="arm_link_fngr">
-        <color rgba="0.2 0.2 0.2 1" />
+        <color rgba="1 0.8431 0 1" />
       </material>
     </visual>
     <collision>
