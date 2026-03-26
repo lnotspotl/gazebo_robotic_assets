@@ -605,6 +605,13 @@
     <child link="d435_link"/>
   </joint>
 
+  <link name="d435_optical"></link>
+  <joint name="d435_optical_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.5707963 0 -1.5707963"/>
+    <parent link="d435_link"/>
+    <child link="d435_optical"/>
+  </joint>
+
   <!-- mid360 -->
   <link name="mid360_link"></link>
   <joint name="mid360_joint" type="fixed">
